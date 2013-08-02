@@ -75,8 +75,6 @@ class Daemon:
         if self.daemon and self.daemon_process == os.getpid():
             self.pf_del()
 
-        sys.exit(0)
-
     def error(self, msg):
         print ERROR_MESSAGE_PATTERN % msg
         sys.exit(1)
