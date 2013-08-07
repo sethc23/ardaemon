@@ -7,7 +7,7 @@ setup(
     author_email='public@ardevelop.com',
     name="ardaemon",
     url="https://github.com/ardevelop/ardaemon",
-    version="0.2",
+    version="1.0",
     packages=["ardaemon",],
     license="MIT License",
     platforms=["UNIX"],
